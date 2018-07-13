@@ -18,5 +18,5 @@ def dos():
 
         while True:
             r = requests.get(s)
-            print("Pocket was sent")
+            print(colored("Pocket was sent",'red'))
 dos()
